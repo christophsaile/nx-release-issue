@@ -7,12 +7,17 @@
       "packages/libs/*",
       "!packages/libs/dev-utils/*"
     ],
-    "projectsRelationship": "independent",
     "version": {
       "conventionalCommits": true
     },
     "changelog": {
-    "projectChangelogs": true
+      "projectChangelogs": {
+        "renderOptions": {
+          "authors": true,
+          "commitReferences": true,
+          "versionTitleDate": true
+        }
+      }
     },
     "releaseTagPattern": "{version}",
     "git": {
