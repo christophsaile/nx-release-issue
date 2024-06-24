@@ -7,7 +7,7 @@
       "packages/libs/*",
       "!packages/libs/dev-utils/*"
     ],
-        "projectsRelationship": "independent",
+    "projectsRelationship": "independent",
     "version": {
       "conventionalCommits": true
     },
