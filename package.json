@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "workspaces": [
+    "packages/apps/*",
+    "packages/libs/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "nx release",
@@ -13,6 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "@nx/js": "^19.3.1",
+    "@nx/workspace": "^19.3.1",
     "nx": "19.3.1"
   },
   "nx": {}

@@ -4,8 +4,7 @@
   "release": {
     "projects": [
       "packages/apps/*",
-      "packages/libs/*",
-      "!packages/libs/dev-utils/*"
+      "packages/libs/*"
     ],
     "version": {
       "conventionalCommits": true
