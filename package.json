@@ -9,8 +9,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "nx release",
-    "release.dry": "nx release --dry-run"
+    "release": "nx release --skip-publish",
+    "release.dry": "nx release --dry-run --skip-publish"
   },
   "keywords": [],
   "author": "",
